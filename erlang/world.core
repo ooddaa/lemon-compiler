@@ -1,0 +1,32 @@
+module 'hehe' ['hello'/0,
+	       'module_info'/0,
+	       'module_info'/1]
+    attributes [%% Line 1
+		'file' =
+		    %% Line 1
+		    [{[119|[111|[114|[108|[100|[46|[101|[114|[108]]]]]]]]],1}],
+		%% Line 1
+		'file' =
+		    %% Line 1
+		    [{[119|[111|[114|[108|[100|[46|[104|[114|[108]]]]]]]]],1}],
+		%% Line 5
+		'file' =
+		    %% Line 5
+		    [{[119|[111|[114|[108|[100|[46|[101|[114|[108]]]]]]]]],5}]]
+'hello'/0 =
+    %% Line 6
+    ( fun () ->
+	  [104|[101|[108|[108|[111|[32|[119|[111|[114|[108|[100|[33]]]]]]]]]]]]
+      -| [{'function',{'hello',0}}] )
+'module_info'/0 =
+    ( fun () ->
+	  call 'erlang':'get_module_info'
+	      ('hehe')
+      -| [{'function',{'module_info',0}}] )
+'module_info'/1 =
+    ( fun (_0) ->
+	  call 'erlang':'get_module_info'
+	      ('hehe', ( _0
+			 -| [{'function',{'module_info',1}}] ))
+      -| [{'function',{'module_info',1}}] )
+end
