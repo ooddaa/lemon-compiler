@@ -32,9 +32,11 @@ none whatsoever
   - Core Erlang 
   - Elixir. A toy language |> Elixir compiler |> erlc |> fat binary .beam files?
 
-## INFO
+## RESOURCES
 | Name | Notes | Link |  
 | ----------- | ----------- | ----------- |
 | The BEAM Book | To understand how BEAM works under the hoods | [link](https://blog.stenmans.org/theBeamBook/#CH-Compiler) |
+| Dragonbook | Compilers: Principles, Techniques, and Tools  | [link](https://suif.stanford.edu/dragonbook/) |
+| cs143 Compilers | Standford course on Youtube | [link](https://www.youtube.com/watch?v=SNWHmnWzJAI&list=PLoCMsyE1cvdUZRe1udlyjpzTww1U5olL2&index=2) |
 
 🍋
