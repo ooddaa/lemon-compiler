@@ -1,0 +1,77 @@
+module 'json_test' ['module_info'/0,
+		    'module_info'/1,
+		    'test'/1]
+    attributes [%% Line 1
+		'file' =
+		    %% Line 1
+		    [{[106|[115|[111|[110|[95|[116|[101|[115|[116|[46|[101|[114|[108]]]]]]]]]]]]],1}]]
+'test'/1 =
+    %% Line 6
+    ( fun (_0) ->
+	  %% Line 8
+	  [{#{#<110>(8,1,'integer',['unsigned'|['big']]),
+	      #<97>(8,1,'integer',['unsigned'|['big']]),
+	      #<109>(8,1,'integer',['unsigned'|['big']]),
+	      #<101>(8,1,'integer',['unsigned'|['big']])}#,#{#<79>(8,1,'integer',['unsigned'|['big']]),
+							     #<112>(8,1,'integer',['unsigned'|['big']]),
+							     #<105>(8,1,'integer',['unsigned'|['big']]),
+							     #<97>(8,1,'integer',['unsigned'|['big']]),
+							     #<116>(8,1,'integer',['unsigned'|['big']]),
+							     #<101>(8,1,'integer',['unsigned'|['big']])}#}|%% Line 9
+													   [{#{#<102>(8,1,'integer',['unsigned'|['big']]),
+													       #<111>(8,1,'integer',['unsigned'|['big']]),
+													       #<114>(8,1,'integer',['unsigned'|['big']]),
+													       #<109>(8,1,'integer',['unsigned'|['big']]),
+													       #<97>(8,1,'integer',['unsigned'|['big']]),
+													       #<116>(8,1,'integer',['unsigned'|['big']])}#,%% Line 10
+																			    [{#{#<116>(8,1,'integer',['unsigned'|['big']]),
+																				#<121>(8,1,'integer',['unsigned'|['big']]),
+																				#<112>(8,1,'integer',['unsigned'|['big']]),
+																				#<101>(8,1,'integer',['unsigned'|['big']])}#,#{#<69>(8,1,'integer',['unsigned'|['big']]),
+																									       #<80>(8,1,'integer',['unsigned'|['big']])}#}|%% Line 11
+																															    [{#{#<97>(8,1,'integer',['unsigned'|['big']]),
+																																#<117>(8,1,'integer',['unsigned'|['big']]),
+																																#<116>(8,1,'integer',['unsigned'|['big']]),
+																																#<104>(8,1,'integer',['unsigned'|['big']]),
+																																#<111>(8,1,'integer',['unsigned'|['big']]),
+																																#<114>(8,1,'integer',['unsigned'|['big']])}#,#{#<84>(8,1,'integer',['unsigned'|['big']]),
+																																					       #<111>(8,1,'integer',['unsigned'|['big']]),
+																																					       #<111>(8,1,'integer',['unsigned'|['big']]),
+																																					       #<108>(8,1,'integer',['unsigned'|['big']])}#}|%% Line 12
+																																											     [{#{#<108>(8,1,'integer',['unsigned'|['big']]),
+																																												 #<101>(8,1,'integer',['unsigned'|['big']]),
+																																												 #<110>(8,1,'integer',['unsigned'|['big']]),
+																																												 #<103>(8,1,'integer',['unsigned'|['big']]),
+																																												 #<116>(8,1,'integer',['unsigned'|['big']]),
+																																												 #<104>(8,1,'integer',['unsigned'|['big']])}#,[0|[26|[52]]]}|%% Line 13
+																																																			     [{#{#<115>(8,1,'integer',['unsigned'|['big']]),
+																																																				 #<111>(8,1,'integer',['unsigned'|['big']]),
+																																																				 #<110>(8,1,'integer',['unsigned'|['big']]),
+																																																				 #<103>(8,1,'integer',['unsigned'|['big']]),
+																																																				 #<115>(8,1,'integer',['unsigned'|['big']])}#,-6}|%% Line 14
+																																																										  [{#{#<121>(8,1,'integer',['unsigned'|['big']]),
+																																																										      #<101>(8,1,'integer',['unsigned'|['big']]),
+																																																										      #<97>(8,1,'integer',['unsigned'|['big']]),
+																																																										      #<114>(8,1,'integer',['unsigned'|['big']])}#,1992}|%% Line 15
+																																																																	 [{#{#<114>(8,1,'integer',['unsigned'|['big']]),
+																																																																	     #<111>(8,1,'integer',['unsigned'|['big']]),
+																																																																	     #<99>(8,1,'integer',['unsigned'|['big']]),
+																																																																	     #<107>(8,1,'integer',['unsigned'|['big']]),
+																																																																	     #<115>(8,1,'integer',['unsigned'|['big']])}#,'true'}|%% Line 16
+																																																																								  [{#{#<118>(8,1,'integer',['unsigned'|['big']]),
+																																																																								      #<97>(8,1,'integer',['unsigned'|['big']]),
+																																																																								      #<114>(8,1,'integer',['unsigned'|['big']])}#,( _0
+																																																																														     -| [{'function',{'test',1}}] )}|[]]]]]]]]}|[]]]
+      -| [{'function',{'test',1}}] )
+'module_info'/0 =
+    ( fun () ->
+	  call 'erlang':'get_module_info'
+	      ('json_test')
+      -| [{'function',{'module_info',0}}] )
+'module_info'/1 =
+    ( fun (_0) ->
+	  call 'erlang':'get_module_info'
+	      ('json_test', ( _0
+			      -| [{'function',{'module_info',1}}] ))
+      -| [{'function',{'module_info',1}}] )
+end
